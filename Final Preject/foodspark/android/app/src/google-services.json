@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917781158872",
+    "project_id": "foodspark-f5634",
+    "storage_bucket": "foodspark-f5634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917781158872:android:d2131de53f50b772f730ad",
+        "android_client_info": {
+          "package_name": "com.example.foodspark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917781158872-tscqro4cl7430pnrc9ldfhhuku8jlfl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgi2ACkr7x4F2il5yi9XOec-zidcyTRcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917781158872-tscqro4cl7430pnrc9ldfhhuku8jlfl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
