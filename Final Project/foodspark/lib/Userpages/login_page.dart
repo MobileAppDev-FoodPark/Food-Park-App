@@ -3,8 +3,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:foodspark/Businesspages/business_homepage.dart';
 import 'package:foodspark/Businesspages/business_register.dart';
+import 'package:foodspark/Userpages/user_homepage.dart';
 import 'package:foodspark/Userpages/user_registration.dart';
 
 class LoginPage extends StatefulWidget {
@@ -234,8 +234,8 @@ class _LoginPageState extends State<LoginPage> {
             .signInWithEmailAndPassword(email: email, password: password)
             .then((uid) => {
                   Fluttertoast.showToast(msg: "Login Successful"),
-                  Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => BusinessScreen())),
+                  Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (context) => HomeScreen())),
                 });
       } on FirebaseAuthException catch (error) {
         switch (error.code) {
